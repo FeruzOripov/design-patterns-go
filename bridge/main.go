@@ -188,7 +188,7 @@ func testDevice(device Device) {
 
 func main() {
 	var tv Device
-	tv = &Radio{}
+	tv = &Radio{volume: 30, channel: 1}
 	var radio Device
 	radio = &Radio{}
 	testDevice(tv)
